@@ -1,26 +1,41 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta name="description" content="Sitio de SistemaST" />
+    <meta name="robots" content="index,follow" />
+    <link rel="stylesheet" type="text/css" href="css/css.css" />
+    <title>SistemaST - Iniciar sesión</title>
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<meta name="description" content="Sitio de SistemaST">
-	<meta name="robots" content="index,follow">
-	<link rel="stylesheet" type="text/css" href="css/css.css">
-	<title>SistemaST - Iniciar sesión</title>
-</head>
-
-<body>
-	<div class="container">
-		<div class="login">
-			<h1>SistemaST</h1>
-			<form method="post">
-				<input type="text" name="u" placeholder="Nombre de usuario" required="required" />
-				<input type="password" name="p" placeholder="Contraseña" required="required" />
-				<button type="submit" class="btn btn-primary btn-block btn-large">Iniciar sesión</button>
-			</form>
-		</div>
-	</div>
-</body>
-
+  <body>
+    <div class="container">
+      <div class="login">
+        <h1>SistemaST</h1>
+        <form method="post">
+          <label for="u">
+            <input
+              type="text"
+              name="u"
+              placeholder="Nombre de usuario"
+              required="required"
+          /></label>
+          <label for="p"
+            ><input
+              type="password"
+              name="p"
+              placeholder="Contraseña"
+              required="required"
+          /></label>
+          <button type="submit" class="btn btn-primary btn-block btn-large">
+            Iniciar sesión
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
