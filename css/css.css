@@ -1,56 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
-
-*{
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-html{
-	font-size: 62.5%;
-	font-family: 'DM Sans', sans-serif;
+html {
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
 }
 
 header {
-	position: relative;
-	display: flex;
-	width: 100%;
-	height: 15vh;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-evenly;
-	flex-wrap: wrap;
-	border-bottom: 1px solid #ffc700;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 15vh;
+  border-bottom: 1px solid #ffc700;
+  
 }
 
 .header--title {
-	font-size: 3rem;
-	align-items: center;	
+  font-size: 3rem;
+  
 }
 
 .logo {
-	align-items: flex-start;
-	margin-left: 10px;
+  margin-left: 10px;
 }
-.header__nav{
-	display: flex;
-	align-items: center;
+.header__nav {
+  display: flex;
+  align-items: center;
 }
-.header__nav__navlist{
-	display: flex;
-	flex-direction: row;
-	margin-left: 10px;
-	align-items: center;
-	padding-right: 15px;
+.header__nav__navlist {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  align-items: center;
+  padding-right: 15px;
 }
 
-.header__nav__navlist li{
-	font-size: 1.8rem;
-	list-style: none;
-	margin: 0 5px;
+.header__nav__navlist li {
+  font-size: 1.8rem;
+  list-style: none;
+  margin: 0 22px;
 }
 .header__nav__navlist li a {
-	text-decoration: none;
+  text-decoration: none;
+  color: black;
 }
