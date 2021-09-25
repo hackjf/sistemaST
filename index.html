@@ -15,7 +15,12 @@
 
   <body>
     <header>
-      <img class="logo" src="img/logo-mn-foto.png.webp" alt="logo" />
+     
+      <picture>
+        <source srcset="img/logo-movil-mn-foto.png.webp" media="(max-width: 768px)">
+        <source srcset="img/logo-mn-foto.png.webp">
+        <img srcset="img/logo-mn-foto.png.webp" alt="My default image">
+    </picture>
       <p class="header--title">Servicio Técnico</p>
       <nav class="header__nav">
         <ul class="header__nav__navlist">
