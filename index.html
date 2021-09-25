@@ -8,19 +8,25 @@
     />
     <meta name="description" content="Sitio de SistemaST" />
     <meta name="robots" content="index,follow" />
-    <link rel="icon" href="https://mnfoto.com.co/wp-content/uploads/2021/06/cropped-icono-mn-foto-32x32.png" sizes="32x32">
+    <link
+      rel="icon"
+      href="https://mnfoto.com.co/wp-content/uploads/2021/06/cropped-icono-mn-foto-32x32.png"
+      sizes="32x32"
+    />
     <link rel="stylesheet" type="text/css" href="css/css.css" />
     <title>SistemaST - Iniciar sesión</title>
   </head>
 
   <body>
     <header>
-     
-      <picture>
-        <source srcset="./img/logo-movil-mn-foto.png.webp" media="(max-width: 768px)">
-        <source srcset="./img/logo-mn-foto.png.webp">
-        <img srcset="./img/logo-mn-foto.png.webp" alt="My default image">
-    </picture>
+      <picture class="logo">
+        <source
+          srcset="./img/logo-movil-mn-foto.png.webp"
+          media="(max-width: 768px)"
+        />
+        <source srcset="./img/logo-mn-foto.png.webp" />
+        <img srcset="./img/logo-mn-foto.png.webp" alt="logo" />
+      </picture>
       <p class="header--title">Servicio Técnico</p>
       <nav class="header__nav">
         <ul class="header__nav__navlist">
@@ -30,5 +36,68 @@
         </ul>
       </nav>
     </header>
+    <main>
+      <div class="login">
+        <div class="login-screen">
+          <div class="app-title">
+            <h1>SISTEMA</h1>
+          </div>
+
+          <div class="login-form">
+            <div class="control-group">
+              <input
+                type="text"
+                class="login-field"
+                value=""
+                placeholder="usuario"
+                id="login-name"
+              />
+              <label class="login-field-icon fui-user" for="login-name"></label>
+            </div>
+
+            <div class="control-group">
+              <input
+                type="password"
+                class="login-field"
+                value=""
+                placeholder="contraseña"
+                id="login-pass"
+              />
+              <label class="login-field-icon fui-lock" for="login-pass"></label>
+            </div>
+
+            <a class="btn btn-primary btn-large btn-block" href="#"
+              >Iniciar sesión</a
+            >
+            <a class="login-link" href="#">Olvidé la contraseña</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <section class="footer__section">
+        <article class="footer__article-left"><p>Información de interés</p>
+        <ul class="footer__list__article">
+          <li><a href="#"></a>Lorem ipsum, dolor sit amet consectetur</li>
+          <li><a href="#"></a>Lorem ipsum, dolor sit amet consectetur</li>
+          <li><a href="#"></a>Lorem ipsum, dolor sit amet consectetur</li>
+        </ul>
+      </article>
+        <article class="footer__article-center"><p>Servicios</p>
+          <ul class="footer__list__article">
+            <li><a href="#"></a>Lorem ipsum, dolor sit amet consectetur</li>
+            <li><a href="#"></a>Lorem ipsum, dolor sit amet consectetur</li>
+            <li><a href="#"></a>Lorem ipsum, dolor sit amet consectetur</li>
+          </ul>
+        </article>
+        <article class="footer__article-right"><p>Contáctenos</p>
+          <ul class="footer__list__article">
+            <li><a href="#"></a>Lorem ipsum, dolor sit amet consectetur</li>
+            <li><a href="#"></a>Lorem ipsum, dolor sit amet consectetur</li>
+            <li><a href="#"></a>Lorem ipsum, dolor sit amet consectetur</li>
+          </ul>
+        </article>
+      </section>
+    </footer>
   </body>
 </html>
